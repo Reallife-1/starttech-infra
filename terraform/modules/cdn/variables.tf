@@ -11,7 +11,7 @@ variable "s3_bucket_id" {
 variable "alb_dns_name" {
   description = "DNS name of the backend ALB (placeholder until backend is deployed)"
   type        = string
-  default     = "placeholder-alb.us-east-1.elb.amazonaws.com"
+  default     = "k8s-default-backendi-598781ecdc-389177640.us-east-1.elb.amazonaws.com"
 }
 
 variable "environment" {
